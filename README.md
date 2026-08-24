@@ -85,9 +85,8 @@ llm-structured-rag/
 ---
 
 ## Tech Stack
-* **Python 3.12**
-* **uv** — Fast Python package installer and resolver
-* **Google GenAI SDK** (`google-genai`) — Gemini embeddings (`text-embedding-004`) & structured text generation (`gemini-2.5-flash`)
+* **Python**
+* **Google GenAI SDK** (`google-genai`) — Gemini embeddings (`text-embedding-004`) & text generation (`gemini-3.6-flash`)
 * **ChromaDB** — Vector database for storing and querying text embeddings
 * **Pydantic v2** — Data validation and strict JSON schema enforcement
-* **Docker & Docker Compose** — Containerization and service orchestration
+* **Docker & Docker Compose** — Containerization
